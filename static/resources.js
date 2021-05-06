@@ -8,17 +8,20 @@ $('document').ready(function () {
             }
         }
     );
+    $("#filter").change(function(){
+        var query = $("#filter").val()
+        console.log(query)
+    })
 });
 
 function addTableRow(row){
-    console.log(row)
     if(row[1]!=""){
-        var newRow=$("<tr></tr>")
-        newRow.append($(`<td>${row[1]}</td>`))
-        newRow.append($(`<td>${row[2]}</td>`))
-        newRow.append($(`<td><a href="${row[7]}" target="_blank" rel="noopener noreferrer">${row[3]}</a></td>`))
-        newRow.append($(`<td><a href="${row[8]}" target="_blank" rel="noopener noreferrer" class="px-1">Link</a></td>`))
-        newRow.append($(`<td><a href="${row[8]}" class="px-1" download>Download</a></td>`))
+        var newRow=$(`<tr class='filteritem ${row[2].toLowerCase()}'></tr>`)
+        newRow.append($(`<td class="">${row[1]}</td>`))
+        newRow.append($(`<td class="">${row[2]}</td>`))
+        newRow.append($(`<td class=""><a href="${row[7]}" target="_blank" rel="noopener noreferrer">${row[3]}</a></td>`))
+        newRow.append($(`<td class=""><a href="${row[8]}" target="_blank" rel="noopener noreferrer" class="px-1">Link</a></td>`))
+        newRow.append($(`<td class=""><a href="${row[8]}" class="px-1" download>Download</a></td>`))
         $("#resources").append(newRow)
     }
 }

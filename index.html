@@ -9,17 +9,20 @@
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
             <title>COH Resident Resources</title>
     </head>
-    <nav class="navbar navbar-dark bg-dark">
-        <span class="navbar-brand mb-0 h1">COH Resident Resources</span>
+    <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="">COH Resident Resources</a>
+        <form class="form-inline">
+            <input id="filter" class="form-control" type="search" placeholder="Filter" aria-label="Filter">
+        </form>
       </nav>
     <body class="bg-light">
-        <div class="p-3">
-        <table id="resources" class="table table-sm table-striped text-center border">
-            <tr>
-                <th>Disease Site</th>
-                <th>Topic</th>
-                <th>Paper</th>
-                <th colspan="2">PDF</th>
+        <div class="py-2">
+        <table id="resources" class="table table-hover table-sm table-striped text-center">
+            <tr class="bg-light">
+                <th class="">Disease Site</th>
+                <th class="">Topic</th>
+                <th class="">Paper</th>
+                <th class=""colspan="2">PDF</th>
             </tr>
         </table>
         </div>
@@ -29,5 +32,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
         <script src="./static/resources.js"></script>
+        <script src="./static/filter.js"></script>
     </footer>
 </html>
