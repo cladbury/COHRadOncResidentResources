@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "//cladbury.github.io/COHRadOncResidentResources/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "//cladbury.github.io/COHRadOncResidentResources/static/js/main.a2a590d9.chunk.js",
+    "main.js.map": "//cladbury.github.io/COHRadOncResidentResources/static/js/main.a2a590d9.chunk.js.map",
+    "runtime-main.js": "//cladbury.github.io/COHRadOncResidentResources/static/js/runtime-main.caa46483.js",
+    "runtime-main.js.map": "//cladbury.github.io/COHRadOncResidentResources/static/js/runtime-main.caa46483.js.map",
+    "static/js/2.5e10120f.chunk.js": "//cladbury.github.io/COHRadOncResidentResources/static/js/2.5e10120f.chunk.js",
+    "static/js/2.5e10120f.chunk.js.map": "//cladbury.github.io/COHRadOncResidentResources/static/js/2.5e10120f.chunk.js.map",
+    "static/js/3.10884b18.chunk.js": "//cladbury.github.io/COHRadOncResidentResources/static/js/3.10884b18.chunk.js",
+    "static/js/3.10884b18.chunk.js.map": "//cladbury.github.io/COHRadOncResidentResources/static/js/3.10884b18.chunk.js.map",
+    "index.html": "//cladbury.github.io/COHRadOncResidentResources/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "//cladbury.github.io/COHRadOncResidentResources/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.5e10120f.chunk.js.LICENSE.txt": "//cladbury.github.io/COHRadOncResidentResources/static/js/2.5e10120f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "//cladbury.github.io/COHRadOncResidentResources/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.caa46483.js",
+    "static/js/2.5e10120f.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.a2a590d9.chunk.js"
+  ]
+}
