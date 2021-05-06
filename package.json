@@ -1,6 +1,5 @@
 {
   "name": "cohresources",
-  "homepage": "https://https://cladbury.github.io/COHRadOncResidentResources/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,11 +10,12 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "react-table": "^7.7.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
