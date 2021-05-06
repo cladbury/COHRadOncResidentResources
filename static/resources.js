@@ -16,7 +16,7 @@ $('document').ready(function () {
 
 function addTableRow(row){
     if(row[1]!=""){
-        var newRow=$(`<tr class='filteritem ${row[2].toLowerCase()}'></tr>`)
+        var newRow=$(`<tr class='filteritem ${row[1].toLowerCase()} ${row[2].toLowerCase()}'></tr>`)
         newRow.append($(`<td class="">${row[1]}</td>`))
         newRow.append($(`<td class="">${row[2]}</td>`))
         newRow.append($(`<td class=""><a href="${row[7]}" target="_blank" rel="noopener noreferrer">${row[3]}</a></td>`))
