@@ -8,10 +8,6 @@ $('document').ready(function () {
             }
         }
     );
-    $("#filter").change(function(){
-        var query = $("#filter").val()
-        console.log(query)
-    })
 });
 
 function addTableRow(row){
