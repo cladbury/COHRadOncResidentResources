@@ -18,6 +18,8 @@ function addTableRow(row){
         newRow.append($(`<td class=""><a href="${row[7]}" target="_blank" rel="noopener noreferrer">${row[3]}</a></td>`))
         newRow.append($(`<td class=""><a href="${row[8]}" target="_blank" rel="noopener noreferrer" class="px-1">Link</a></td>`))
         newRow.append($(`<td class=""><a href="${row[8]}" class="px-1" download>Download</a></td>`))
+        newRow.append($(`<td class="">${row[5]}</td>`))
+        newRow.append($(`<td class="">${row[6]}</td>`))
         $("#resources").append(newRow)
     }
 }
